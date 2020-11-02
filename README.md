@@ -8,5 +8,5 @@ languages: HTML, Javascript, CSS <br/>
 database: aws rds database for handling the users. For future expansion, we intend to store previous "choices" in the database<br/>
 libraries and modules: Node js, Express, express-session, body parser mysql<br/>
 
-[Imgur](https://imgur.com/tQRcIfY)
+![alt text](https://github.com/dta12/ChoiceMaker/blob/main/Choicemaker.png)
 
