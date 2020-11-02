@@ -1,0 +1,271 @@
+*{
+	margin: 0 px;
+	padding: 0 px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f4f4f4;
+	font-family: Advent Pro;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+}
+
+/* code from navbar video*/
+nav{
+	display: flex; 
+	justify-content: space-around;
+	align-items: center; 
+	min-height: 10vh;
+}
+
+
+p{
+	position: relative;
+	top: -60px;
+	font-size: 40px; 
+	text-align: center;
+}
+
+div p{
+	width: 100%;
+	top: 30px;
+}
+
+div h1{
+	width: 100%; 
+	top: 30px;
+}
+
+li{
+	float: left;
+	padding: 5px;
+}
+
+.links{
+	list-style: none;
+}
+
+.links a:link{
+	color: #1a1c20;
+	text-decoration: none;
+}
+
+.links a:visited{
+	color: #1a1c20; 
+}
+
+.links a:hover{
+	color: #f4f4f4;
+}
+
+.half{
+	width: 50vw;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.input{
+	text-align: center;
+	width: 98%;
+}
+
+.input-container{
+	width: 100%;
+	padding: 25vh 0;
+	margin: 0 auto;
+	text-align: center;
+	position: relative; 
+}
+
+.input-shape{
+	border-radius: 5px;
+	border: none;
+	font-size: 16.7px;
+}
+
+.button{
+	position: absolute;
+	background-color: #f0a500;
+	border: none;
+	font-size: 16.5px;
+	border-radius: 5px;
+	font-family: Advent Pro;
+	color: #f4f4f4;
+}
+
+.var-button{
+	background-color: #f0a500;
+	border: none;
+	font-size: 30px;
+	border-radius: 5px;
+	font-family: Advent Pro;
+	color: #f4f4f4;
+	float: right;
+	margin: 20px;
+	width: 200px;
+	height: 50px;
+	
+}
+
+.curved svg{
+	display: block;
+	width: 100%;
+}
+
+.animation-area{
+	width: 100%;
+	height: 100vh;
+}
+
+.variable-input{
+	width: 33%;
+	height: 20%;  
+	float: left;
+	text-align: center;	
+	letter-spacing: 3px;
+}
+
+.vinput{
+	width: 93.5%; 
+}
+
+.variable-display{
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.variable-text{
+	font-weight: bold;
+	font-size: 15px;
+	top: -140px;
+}
+
+.space{
+	letter-spacing: 0px;
+}
+
+.box div{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border: 6px solid #f0a500; 
+	border-radius: 10px;
+}
+
+.box div:nth-child(1){
+	top: 12%;
+	left: 42%;
+	animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+	top: 70%;
+	left: 50%;
+	animation: animate 7s linear infinite; 
+}
+
+.box div:nth-child(3){
+	top: 17%;
+	left: 6%;
+	animation: animate 9s linear infinite; 
+}
+
+.box div:nth-child(4){
+	top: 20%;
+	left: 60%;
+	animation: animate 10s linear infinite; 
+}
+
+.box div:nth-child(5){
+	top: 67%;
+	left: 10%;
+	animation: animate 6s linear infinite; 
+}
+
+.box div:nth-child(6){
+	top: 80%;
+	left: 70%;
+	animation: animate 12s linear infinite; 
+}
+
+.box div:nth-child(7){
+	top: 60%;
+	left: 80%;
+	animation: animate 15s linear infinite; 
+}
+
+.box div:nth-child(8){
+	top: 80%;
+	left: 70%;
+	animation: animate 12s linear infinite; 
+}
+
+.box div:nth-child(9){
+	top: 80%;
+	left: 70%;
+	animation: animate 9s linear infinite; 
+}
+
+.box div:nth-child(10){
+	top: 20%;
+	left: 80%;
+	animation: animate 12s linear infinite; 
+}
+
+.variable-cards-containers{
+	width: 32%;
+	height: 295px;
+	border-radius: 17px;
+	border: none;
+	float: left;
+	margin: 8px;
+	background-image: linear-gradient(to bottom, #f0a500, #cf7500); 
+}
+
+@keyframes animate{
+	0%{transform: scale(0) translateY(0) rotate(0); opacity: 1;}
+}
+
+input[type=submit]{
+	background-color: #f0a500;
+	border: none;
+	font-size: 16.5px;
+	border-radius: 5px;
+	font-family: Advent Pro;
+	color: #f4f4f4;
+}
+
+input[type="range"]{
+	width: 85%;
+	height: 3.5px;
+	background-color: #1a1c20; 
+	-webkit-appearance: none;
+	border-radius: 3px;
+	outline: none; 
+}
+
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	background-color: #1a1c20;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#grad1{
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(to bottom, #f0a500, #cf7500); 
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> ChoiceMaker </title>
+
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="/stylesheetone.css">
+    <link rel="icon" href="data:;base64,=">
+</head>
+
+
+<body>
+    <nav>
+        <div class="logo half">
+            <h3>CHOICE MAKER</h3>
+        </div>
+
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <ul class="links half">
+            <li class="right">
+                <a href="/">LOG OUT</a>
+            </li>
+            <li class="right">
+                <a href="/aboutus">ABOUT US</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="input-container">
+        <div class="input-text">
+            <p>INPUT YOUR MAIN CHOICE HERE:</p>
+        </div>
+        <form class="input" action="/factors" method="post">
+            <input type="text" placeholder="Type here" class="input-shape" id="input_text">
+            <input class="button" id="go_button" type="submit" value="Go!"></input>
+        </form>
+        <div class=curved>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f0a500" fill-opacity="222" d="M0,288L30,245.3C60,203,120,117,180,85.3C240,53,300,75,360,90.7C420,107,480,117,540,149.3C600,181,660,235,720,218.7C780,203,840,117,900,80C960,43,1020,53,1080,96C1140,139,1200,213,1260,202.7C1320,192,1380,96,1410,48L1440,0L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+        </div>
+        <div class="curved">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f0a500" fill-opacity="222" d="M0,288L30,245.3C60,203,120,117,180,85.3C240,53,300,75,360,90.7C420,107,480,117,540,149.3C600,181,660,235,720,218.7C780,203,840,117,900,80C960,43,1020,53,1080,96C1140,139,1200,213,1260,202.7C1320,192,1380,96,1410,48L1440,0L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        </div>
+    </div>
+
+</body>
+<script src="/home.js"></script>
+
+</html>

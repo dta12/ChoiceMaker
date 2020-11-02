@@ -1,0 +1,255 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: Advent Pro;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h4 {
+    color: #f4f4f4;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 10px;
+}
+
+p {
+    color: #f4f4f4;
+    letter-spacing: 3px;
+    font-size: 150px;
+    float: left;
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    /* background: blue; */
+}
+
+button {
+    background: transparent;
+    font-size: 40px;
+    color: #f4f4f4;
+    border: none;
+    font-family: Advent Pro;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    color: #f4f4f4;
+    letter-spacing: 3px;
+}
+
+.links {
+    list-style: none;
+}
+
+.links a:link {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: #f4f4f4;
+}
+
+.links a:hover {
+    color: #1a1c20;
+}
+
+.half {
+    width: 50vw;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.results {
+    width: 550px;
+    height: 200px;
+    animation-name: results;
+    animation-duration: 1s;
+    font-size: 155px;
+    float: right;
+    color: #f4f4f4;
+    position: relative;
+}
+
+.number {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    animation-name: number;
+    animation-duration: 1s;
+    bottom: 0;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 500px;
+}
+
+.variables {
+    color: #f4f4f4;
+    width: 650px;
+    height: 200px;
+    border: solid;
+    animation-name: variables;
+    animation-duration: 1s;
+    border-radius: 3px;
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+}
+
+.button-continue {
+    color: #f4f4f4;
+    width: 200px;
+    height: 70px;
+    border: solid;
+    position: absolute;
+    animation-name: button-continue;
+    animation-duration: 1s;
+    border-radius: 3px;
+    bottom: 70px;
+    right: 130px;
+}
+
+.button-revise {
+    color: #f4f4f4;
+    width: 200px;
+    height: 70px;
+    border: solid;
+    position: absolute;
+    animation-name: button-continue;
+    animation-duration: 1s;
+    border-radius: 3px;
+    bottom: 230px;
+    right: 130px;
+}
+
+.hide {
+    display: none;
+    float: right;
+}
+
+.myDIV:hover+.hide {
+    display: block;
+}
+
+@keyframes results {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    /*0%{left:0px; top:0px;}
+	100%{left:1024px; top:0px;}*/
+}
+
+@keyframes number {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    /*0%{left: 0px; top: 0px;}
+	100%{left: 786px; top: 1024px;}*/
+}
+
+@keyframes variables {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+}
+
+#grad1 {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #f0a500, #cf7500);
+}
+
+.login-container {
+    width: 100vw;
+    width: 100vh;
+}
+
+.login {
+    position: absolute;
+    margin: 100px;
+    right: 350px;
+    float: center;
+    border: none;
+    background-color: #1a1c20;
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+}
+
+.heading {
+    letter-spacing: 4px;
+    color: #f4f4f4;
+    margin: 10px;
+}
+
+.divider {
+    width: 96%;
+    height: 2px;
+    background-color: #f4f4f4;
+    position: absolute;
+    left: 9px;
+}
+
+input[type=text],
+select {
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+}
+
+input[type=submit] {
+    position: absolute;
+    right: 10px;
+    width: 15%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0a500;
+    font-family: Advent Pro;
+    color: #f4f4f4;
+    font-size: 20px;
+    float: right;
+}
+
+a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.warning {
+    color: #f0a500;
+}
