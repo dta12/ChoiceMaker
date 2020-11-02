@@ -1,4 +1,4 @@
-# ChoiceMaker
+# ChoiceMaker ## by Dastan Abdulla and Leela Pinnamaraju
 Helps you make difficult decisions in your daily life according to a objective mathematical model.
 ## How to run
 First go to ```https://nodejs.org/en/download/``` to download node js. Then 
