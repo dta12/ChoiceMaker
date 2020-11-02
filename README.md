@@ -1,6 +1,6 @@
 # ChoiceMaker 
 ## by Dastan Abdulla and Leela Pinnamaraju
-Helps you make difficult decisions in your daily life according to a objective mathematical model.
+overview: Helps you make difficult decisions in your daily life according to a objective mathematical model.
 ## How to run
 First go to ```https://nodejs.org/en/download/``` to download node js. Then 
 go into the  ```/src``` directory and open a terminal of your choice then run the command ```node server.js```. After that, open a broswer of your choice and enter the url: ```localhost:8000```
