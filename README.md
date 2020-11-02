@@ -8,5 +8,5 @@ languages: HTML, Javascript, CSS <br/>
 database: aws rds database for handling the users. For future expansion, we intend to store previous "choices" in the database<br/>
 libraries and modules: Node js, Express, express-session, body parser mysql<br/>
 
-![alt text](https://imgur.com/tQRcIfY)
+[Imgur](https://imgur.com/tQRcIfY)
 
