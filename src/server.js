@@ -7,10 +7,10 @@ const bodyParser = require('body-parser');
 const port = 8000
 
 var connection = mysql.createConnection({
-    host: 'choicemaker.c8nbh2ksnlca.us-east-1.rds.amazonaws.com',
-    user: 'admin',
-    password: 'choicemaker',
-    database: 'users'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 app.use(session({
     secret: 'secret',
